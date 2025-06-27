@@ -9,7 +9,7 @@ import {
   Settings,
   Bell,
   BarChart,
-  Dashboard,
+  Home,
   LogOut,
   Menu,
   X
@@ -21,7 +21,7 @@ const Layout = () => {
   const location = useLocation();
 
   const navigationItems = [
-    { name: "Dashboard", href: "/", icon: Dashboard },
+    { name: "Dashboard", href: "/", icon: Home },
     { name: "Announcements", href: "/announcements", icon: Bell },
     { name: "Homework", href: "/homework", icon: FileText },
     { name: "Tests & Exams", href: "/tests", icon: Book },
